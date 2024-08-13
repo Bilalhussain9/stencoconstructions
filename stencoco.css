@@ -1,0 +1,770 @@
+body {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.2em;
+    font-weight: 300;
+    line-height: 42px;
+    margin: 0 0 32px 0;
+}
+
+p {
+    color: #777;
+    font-size: 14px;
+    line-height: 26px;
+    margin: 0 0 20px;
+}
+
+
+.navbar {
+    z-index: 1;
+}
+
+.nav-top {
+    margin-top: 25px;
+}
+
+/* .navbar-brand{
+    margin-right: 90px;
+} */
+
+.navbar.scrolled {
+    margin-top: 0;
+    transition: margin-top 9.9s;
+}
+
+.imgg {
+    z-index: 2;
+    transition: 0.9s;
+    position: absolute;
+    margin-left: 140px;
+    top: 0;
+}
+
+
+.icon-css {
+    font-size: 30px;
+    padding: 5px;
+    color: #04438d;
+}
+
+
+.nav-link {
+    font-size: 12px;
+    font-weight: 700 !important;
+    padding: 0 14.4px !important;
+    height: 90px !important;
+    color: rgb(94, 114, 121);
+    align-items: center;
+    display: flex;
+}
+
+.nav-item a:hover {
+    background-color: #04438d;
+    color: #fff !important;
+}
+
+@keyframes slide-left {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+
+
+.bg-color {
+    background-color: #04438d !important;
+}
+
+.text-color {
+    color: #04438d !important;
+}
+
+.slide-left p {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.fw-900 {
+    font-weight: 900 !important;
+}
+
+.fs-7 {
+    font-size: 12.6px !important;
+}
+
+.fs-8 {
+    font-size: 21px !important;
+}
+
+.fs-9 {
+    font-size: 1.3em !important;
+    font-weight: 700;
+}
+
+.l-h-1 {
+    line-height: -1px !important;
+}
+
+.Who h2 {
+    font-size: 30.8px;
+    font-weight: 300;
+}
+
+.img-bdr {
+    border: #e0e0e0 solid 1px;
+    padding: 4px !important;
+    background-color: #fff;
+
+}
+
+
+
+.card-body h4 {
+    font-size: 19.6px;
+    margin: 0 0 8px;
+}
+
+
+.bg-stenco {
+    background-color: #eaeff3 !important;
+    border-color: #dae3ea !important;
+}
+
+
+
+
+.box {
+    width: 255px;
+    height: 255px;
+    overflow: hidden;
+}
+
+.box2 {
+    width: 255px;
+    height: 255px;
+    overflow: hidden;
+}
+
+.boxx {
+    transform: rotate(45deg);
+}
+
+.inner-box img {
+    width: 360px;
+    margin-top: -54px;
+    margin-left: -60px;
+    transform: rotate(-45deg);
+}
+
+.inner-box2 img {
+    width: 360px;
+    margin-top: -54px;
+    margin-left: -60px;
+    transform: rotate(-45deg);
+}
+
+
+.button-new {
+    border: 2px solid #04438d;
+    font-size: 12.8px;
+
+}
+
+.allthebest {
+    background-image: url(https://www.stencoconstructions.com/assets/img/demos/construction/testimonials/testimonials-bg.jpg);
+    background-position: 50% 100%;
+    min-height: 540px;
+    background-size: cover;
+    margin: 30px 0px 24px;
+    padding: 50px 0px;
+}
+
+.testimonial.testimonial-with-quotes blockquote:before {
+    color: #000;
+    display: block !important;
+    left: 10px;
+    top: 0;
+    content: "“";
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    position: absolute;
+}
+
+
+.testimonial.testimonial-with-quotes blockquote:after {
+    color: #777;
+    display: block !important;
+    right: 10px;
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    position: absolute;
+    bottom: -0.5em;
+    content: "”";
+}
+
+.testimonial .testimonial-author strong {
+    color: #111;
+    display: block;
+    margin-bottom: 2px;
+    font-size: 1rem;
+}
+
+.owl-stage {
+    transform: translate3d(-540px, 0px, 0px);
+    transition: all 0s ease 0s;
+    width: 2160px;
+}
+
+.owl-item {
+    width: 540px;
+}
+
+.testimonial.testimonial-style-2 blockquote {
+    background: 0 0 !important;
+    border-radius: 4px;
+    padding: 22px 20px;
+    margin: 0;
+}
+
+.testimonial.testimonial-with-quotes blockquote p {
+    font-size: 20px;
+    padding: 0 40px;
+    color: #000;
+    font-family: 'Playfair Display', serif;
+}
+
+.lead {
+    font-weight: 300;
+    letter-spacing: -.05em;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+h3 {
+    font-size: 1.8em;
+    line-height: 35px;
+    letter-spacing: 1px;
+    /* font-weight: 700; */
+    margin-bottom: 33px;
+    text-transform: uppercase;
+}
+
+
+
+.cont-banner {
+    background-color: #04438d;
+}
+
+.cont-banner h3 {
+    font-weight: 700 !important;
+}
+
+
+.artticles {
+    font-size: 35px;
+}
+
+.btn-default {
+    color: #050505;
+    background-color: #fff;
+    font-size: .9rem;
+    padding: 0.533rem 0.933rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+.card-body h3 {
+    line-height: 32px;
+    height: 70px;
+    margin-bottom: 12px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+
+.footer {
+    background: #e9eff2 url(https://www.stencoconstructions.com/assets/img/demos/construction/footer-construction.jpg) no-repeat 50% 50%;
+    border-top: 0;
+    padding: 60px 0 30px;
+    min-height: 400px;
+    font-size: .9em !important;
+    overflow: hidden;
+}
+
+.footer .list-footer-nav {
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .list-footer-nav a {
+    font-size: 14px;
+    color: #777;
+    text-decoration: none;
+}
+
+
+.social-network img {
+    width: 40px;
+    margin: 0 5px;
+}
+
+
+h4 {
+    font-size: 1.4em;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 0 0 14px 0;
+}
+
+.newsletter {
+    color: #777;
+}
+
+.newsletter a {
+    color: #777;
+}
+
+.list li {
+    margin-bottom: 13px;
+
+}
+
+.icons {
+    color: rgb(4, 67, 141);
+}
+
+.pa {
+    color: #777;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.mb13 {
+    margin-bottom: 13px;
+}
+
+@media (max-width: 575px) {
+    h2 {
+        line-height: 40px;
+    }
+
+    .slide-left p {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .carousel-item .carousel-caption {
+        position: absolute;
+        margin: 0;
+        color: white;
+        left: 89%;
+        top: 83%;
+        transform: translate(-50%, -50%);
+    }
+
+    .inner-box2 img {
+        width: 390px;
+        margin-top: -42px;
+        margin-left: -61px;
+        transform: rotate(-45deg);
+    }
+
+    .center-img {
+        text-align: -webkit-center;
+    }
+
+    .gap-6 {
+        gap: 130px;
+        overflow: hidden;
+    }
+
+    .committed {
+        margin-top: 71px !important;
+        ;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .header-nav-main {
+        position: absolute;
+        background: 0 0;
+        background: #fff;
+        width: 85vw;
+        top: 100%;
+        left: 50%;
+        transform: translate3d(-50%, 0, 0);
+    }
+
+    .nav-link {
+        font-size: 16px;
+        font-weight: bold;
+        color: #04438d;
+        padding: 5px 9px;
+    }
+
+    .nav-top {
+        margin-top: 0;
+
+    }
+
+    .carousel-item img {
+        margin-top: 70px;
+    }
+
+    .header-nav-main:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 100vw;
+        height: 100%;
+        background: #fff;
+        z-index: -1;
+        transform: translateX(-50%);
+    }
+}
+
+
+
+
+
+@media (min-width:1024px) {
+    .nav {
+        min-height: 90px !important;
+    }
+
+    .carousel-item .carousel-caption {
+        position: absolute;
+        margin: 0;
+        color: white;
+        left: 74%;
+        top: 83%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+@media (min-width:318px) and (max-width:1024) {
+    body {
+        font-size: 13px;
+    }
+
+    .nav {
+        min-height: 90px !important;
+    }
+
+    .carousel-item .carousel-caption {
+        position: absolute;
+        margin: 0;
+        color: white;
+        left: 70%;
+        top: 84%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+@media (min-width: 1399px) {
+
+    /* .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1140px;
+    } */
+    .carousel-item .carousel-caption {
+        position: absolute;
+        margin: 0;
+        color: white;
+        left: 70%;
+        top: 84%;
+        transform: translate(-50%, -50%);
+    }
+
+    .projects {
+        background-image: url(https://www.stencoconstructions.com/assets/img/home/home-concept-small.png);
+        background-repeat: no-repeat;
+
+    }
+
+    .box2 {
+        height: 128px;
+        width: 128px;
+    }
+
+    .inner-box2 img {
+        width: 195px;
+        margin-top: -24px;
+        margin-left: -40px;
+        transform: rotate(-45deg);
+    }
+
+    .img-4 {
+        position: absolute;
+        top: -34px;
+        right: 31%;
+    }
+
+    .img-5 {
+        position: absolute;
+        top: -128px;
+        right: 337px;
+    }
+
+    .img-6 {
+        position: absolute;
+        top: 37px;
+        right: 203px;
+    }
+
+
+    .img-7 {
+        position: absolute;
+        top: -73px;
+        right: 98px;
+    }
+
+    .gap-6 {
+        gap: 70px;
+    }
+
+
+}
+
+@media (min-width: 1199px) and (max-width: 1399px) {
+    .projects {
+        background-image: url(https://www.stencoconstructions.com/assets/img/home/home-concept-small.png);
+        background-repeat: no-repeat;
+
+    }
+
+    .carousel-item .carousel-caption {
+        position: absolute;
+        margin: 0;
+        color: white;
+        left: 72%;
+        top: 84%;
+        transform: translate(-50%, -50%);
+    }
+
+    .box2 {
+        height: 128px;
+        width: 128px;
+    }
+
+    .inner-box2 img {
+        width: 195px;
+        margin-top: -24px;
+        margin-left: -40px;
+        transform: rotate(-45deg);
+    }
+
+    .img-4 {
+        position: absolute;
+        top: -38px;
+        right: 26%;
+    }
+
+    .img-5 {
+        position: absolute;
+        top: -180px;
+        right: 220px;
+    }
+
+    .img-6 {
+        position: absolute;
+        top: -13px;
+        right: 94px;
+    }
+
+    .img-7 {
+        position: absolute;
+        top: -122px;
+        right: -15px;
+
+    }
+
+    .gap-6 {
+        gap: 120px;
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1199px) {
+
+    .img-1 {
+        position: absolute;
+        top: 0px;
+        right: 59%;
+    }
+
+    .img-2 {
+        position: absolute;
+        top: 195px;
+        right: 26%;
+    }
+
+    .img-3 {
+        position: absolute;
+        top: 414px;
+        right: 59%;
+
+    }
+
+    .img-4 {
+        position: absolute;
+        top: 597px;
+        right: 26%;
+
+    }
+
+    .img-5 {
+        position: absolute;
+        top: 337px;
+        right: 59%;
+    }
+
+    .img-6 {
+        position: absolute;
+        top: 731px;
+        right: 59%;
+    }
+
+    .img-7 {
+        position: absolute;
+        top: 521px;
+        right: 26%;
+    }
+
+    .gap-6 {
+        gap: 160px;
+    }
+
+    .committed {
+        margin-top: 714px !important;
+        ;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .slide-left p {
+        font-size: 21px;
+        font-weight: 300;
+    }
+
+    .img-1 {
+        position: absolute;
+        top: 0px;
+        right: 53%;
+    }
+
+    .img-2 {
+        position: absolute;
+        top: 195px;
+        right: 9%;
+    }
+
+    .img-3 {
+        position: absolute;
+        top: 414px;
+        right: 53%;
+
+    }
+
+    .img-4 {
+        position: absolute;
+        top: 597px;
+        right: 9%;
+
+    }
+
+    .img-5 {
+        position: absolute;
+        top: 337px;
+        right: 53%;
+    }
+
+    .img-6 {
+        position: absolute;
+        top: 731px;
+        right: 53%;
+    }
+
+    .img-7 {
+        position: absolute;
+        top: 521px;
+        right: 9%;
+    }
+
+    .gap-6 {
+        gap: 160px;
+    }
+
+    .committed {
+        margin-top: 714px !important;
+        ;
+    }
+
+    .carousel-item .carousel-caption {
+        position: absolute;
+        margin: 0;
+        color: white;
+        left: 81%;
+        top: 84%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width: 768px) and (min-width: 575px) {
+    .slide-left p {
+        font-size: 19px;
+        font-weight: 300;
+    }
+
+    .carousel-item .carousel-caption {
+        position: absolute;
+        margin: 0;
+        color: white;
+        left: 74%;
+        top: 83%;
+        transform: translate(-50%, -50%);
+    }
+
+    .inner-box2 img {
+        width: 390px;
+        margin-top: -42px;
+        margin-left: -61px;
+        transform: rotate(-45deg);
+    }
+
+    .center-img {
+        text-align: -webkit-center;
+    }
+
+    .gap-6 {
+        gap: 130px;
+        overflow: hidden;
+    }
+
+    .committed {
+        margin-top: 71px !important;
+        ;
+    }
+
+}
